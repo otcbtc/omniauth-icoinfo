@@ -1,6 +1,5 @@
 require 'omniauth/strategies/oauth2'
 
-
 module OmniAuth
   module Strategies
     class Icoinfo < OmniAuth::Strategies::OAuth2
@@ -16,8 +15,10 @@ module OmniAuth
 
       info do
         {
-          id: raw_info["id"],
-          email: raw_info["email"]
+          email: raw_info["email"],
+          name: raw_info["user_name"],
+          image: raw_info["image"],
+          identity_confirmed: raw_info["identity_confirmed_at"]
         }
       end
 
