@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors  = ['Wayne Chu']
   s.email    = ['wayne@icoinfo.com']
   s.summary  = 'Icoinfo OAuth2 Strategy for OmniAuth'
-  s.homepage = 'https://github.com/wayne.5540/omniauth-icoinfo'
+  s.homepage = 'https://github.com/icoinfo/omniauth-icoinfo'
   s.license  = 'MIT'
 
   s.files         = `git ls-files`.split("\n")
