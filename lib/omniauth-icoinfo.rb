@@ -1,1 +1,1 @@
-require 'omniauth/facebook'
+require 'omniauth/icoinfo'
